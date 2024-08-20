@@ -78,7 +78,7 @@
       initialPassword = "totallynotasecurepassword";
       isNormalUser = true;
       # TODO: Be sure to add any other groups you need (such as networkmanager, audio, docker, etc)
-      extraGroups = ["audio", "networkmanager", "wheel"];
+      extraGroups = ["audio" "networkmanager" "wheel"];
     };
   };
 
