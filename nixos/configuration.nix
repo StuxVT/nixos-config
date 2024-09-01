@@ -78,7 +78,7 @@
       initialPassword = "totallynotasecurepassword";
       isNormalUser = true;
       # TODO: Be sure to add any other groups you need (such as networkmanager, audio, docker, etc)
-      extraGroups = ["audio" "networkmanager" "wheel"];
+      extraGroups = ["audio" "libvirtd"  "networkmanager" "wheel"];
     };
   };
 
@@ -137,6 +137,10 @@
 
   networking.firewall.enable = true;
   networking.firewall.allowPing = false;
+
+  #Virtualization
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;  
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   system.stateVersion = "24.05";

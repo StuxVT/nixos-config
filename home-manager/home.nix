@@ -49,7 +49,16 @@
   home.packages = with pkgs; [ 
     discord
     firefox
+    vscode
   ];
+
+  # Connect virt-manager to qemu
+  dconf.settings = {
+    "org/virt-manager/virt-manager/connections" = {
+      autoconnect = ["qemu:///system"];
+      uris = ["qemu:///system"];
+    };
+  };
 
   # Enable home-manager and git
   programs.home-manager.enable = true;
