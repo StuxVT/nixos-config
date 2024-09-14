@@ -51,6 +51,11 @@
     brave
     discord
     firefox
+    jetbrains.goland
+    jetbrains.idea-ultimate
+    jetbrains.pycharm-professional
+    jetbrains.rust-rover
+    jetbrains.webstorm    
     vscode
   ];
 
