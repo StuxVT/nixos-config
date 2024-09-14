@@ -56,6 +56,7 @@
     jetbrains.pycharm-professional
     jetbrains.rust-rover
     jetbrains.webstorm    
+    mullvad-vpn
     vscode
   ];
 
