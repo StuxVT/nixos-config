@@ -51,11 +51,13 @@
     brave
     discord
     firefox
+    go
     jetbrains.goland
     jetbrains.idea-ultimate
     jetbrains.pycharm-professional
     jetbrains.rust-rover
     jetbrains.webstorm    
+    kdePackages.yakuake
     mullvad-vpn
     vscode
   ];
